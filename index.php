@@ -1,8 +1,8 @@
 <?php
-require 'config.php';
+    require 'config.php';
 
-$hoursToShow = isset($_GET['hours']) ? $_GET['hours'] : $CONFIG['defaultHoursToShow'];
-$numberOfThumbnailsToShow = $CONFIG['numberOfSnapshotsPerHour'] * $hoursToShow;
+    $hoursToShow = isset($_GET['hours']) ? $_GET['hours'] : $CONFIG['defaultHoursToShow'];
+    $numberOfThumbnailsToShow = $CONFIG['numberOfSnapshotsPerHour'] * $hoursToShow;
 ?>
 <html>
 
